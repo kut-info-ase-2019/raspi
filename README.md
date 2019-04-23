@@ -66,14 +66,14 @@ In the following, we develop two applications appear in the tutorial of the [Ras
 ## Light LED
 
 Read [Raspberry Pi Starter Kit Lesson 4](http://osoyoo.com/2017/06/23/python-light-led/).
-
+
 ### brief instruction
 
 1. Connect the Raspberry Pi to the breadboard.  Use a "T"-shape connector and a flat cable.
 2. Construct a circuit on the breadboard (see [connection graph](http://osoyoo.com/wp-content/uploads/2017/06/Untitled-Sketch_bb.jpg))
   * LED only lights for a cirtain polality; When a longer pin (anode) is at a higher level than the other (cathode), it lites. If you connect the anode to a GPIO pin and the cathode to GND though a register, you can light it only when you output 3.3V to the GPIO pin.
   * **Do not forget inserting a register. The registance of LED is virtually zero.**
-3. Execute the LED lighting program found at [http://osoyoo.com/driver/pi3_start_learning_kit_lesson_4/pythontest.py].
+3. Execute the LED lighting program found at http://osoyoo.com/driver/pi3_start_learning_kit_lesson_4/pythontest.py.
 
 ## Temparture and humidity sensor module
 
@@ -84,7 +84,7 @@ We use DHT11 sensor module. On DHT11, necessary registers are implemented.  All 
 ### brief instruction
 
 1. Construct a circuit on the breadboard. (see [connection graph](graph:http://osoyoo.com/wp-content/uploads/2017/07/Untitled-Sketch_bb.png))
-2. Execute the Python program found at [URL: http://osoyoo.com/driver/pi3_start_learning_kit_lesson_17/dht11.py].
+2. Execute the Python program found at http://osoyoo.com/driver/pi3_start_learning_kit_lesson_17/dht11.py.
 
 ## Your Application
 
