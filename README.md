@@ -91,7 +91,13 @@ We use DHT11 sensor module. On DHT11, necessary registers are implemented.  All 
 Let's develop a heat index indicator.
 Heat index is explained in [wikipedia](https://ja.wikipedia.org/wiki/不快指数)
 
-The indicator senses temperature and humidity each second, and light the LED corresponding to the current heat index.
+The indicator senses temperature and humidity each second, and light the LED corresponding to the current heat index. For example:
 * green: heat index < 75
 * yellow: heat index < 80
 * red: heat index >= 80
+You can use more LEDs to show heat index with a higher resolusion.
+
+### Assignment
+
+* Push your heat index indicator program to this repository.
+* Prepare for demonstration.
