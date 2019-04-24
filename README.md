@@ -29,7 +29,7 @@ $ ssh pi@192.168.11.10x
 
 Change password immediately! 
 ```
-$ password
+$ passwd
 ```
 
 3. Clone your repository
