@@ -7,7 +7,7 @@ Check your group has two containers: PL-2 Raspberry Pi Container & Rapberry Pi S
   * USB power cable
   * SD card x 2
     * The one inserted in the Rasberry pi is ready to use.
-    * The one inserted in the black SD card adapter is not; you can install OS, configure, and use it, if you like. ([how to configure](rasbian-setup))
+    * The one inserted in the black SD card adapter is not; you can install OS, configure, and use it, if you like. 
   * SD card adapter x 2 (white & black)
   
 * Raspberry Pi Starter Kit contains a packing list.
@@ -18,11 +18,11 @@ Check your group has two containers: PL-2 Raspberry Pi Container & Rapberry Pi S
 
 Login using ssh.
 
-  * IP address: `192.168.11.1xx`  (`xx` is group number )
+  * IP address: `192.168.11.10x`  (`x` is group number 1 - 5)
   * User: `pi`
   * Password: `raspberry`
 ```
-$ ssh pi@192.168.11.1xx
+$ ssh pi@192.168.11.10x
 ```
 
 2. Change password
@@ -37,7 +37,7 @@ $ password
 Clone your git repository using any one of group member's account.
 
 ```
-$ git clone https://user@github.com/kut-info-ase-2019/raspi-led-gXX.git
+$ git clone https://user@github.com/kut-info-ase-2019/raspi-led-g0X.git
 ```
 
 You would like to write a program on your laptop computer. In this case, you can `git push` your program on your computer and `git pull` on the Raspberry Pi.
@@ -99,7 +99,7 @@ The indicator senses temperature and humidity each second, and light the LED cor
 
 You can use more LEDs to show heat index with a higher resolusion.
 
-### Assignment
+### what to do
 
 * Push your heat index indicator program to this repository.
 * Prepare for demonstration.
