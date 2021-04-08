@@ -89,7 +89,7 @@ We use DHT11 sensor module. On DHT11, necessary registers are implemented.  All 
 ## Your Application
 
 Let's develop a heat index indicator.
-Heat index is explained in [wikipedia](https://ja.wikipedia.org/wiki/不快指数)
+Heat index is explained in　https://en.wikipedia.org/wiki/Heat_index) or [wikipedia](https://ja.wikipedia.org/wiki/不快指数) in Japanese
 
 The indicator senses temperature and humidity each second, and light the LED corresponding to the current heat index. For example:
 
